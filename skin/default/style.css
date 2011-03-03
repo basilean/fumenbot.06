@@ -1,0 +1,25 @@
+body { width: 100%; margin-left: auto; margin-right: auto; margin-top: 100; background: url('') black no-repeat center center; }
+#status { margin-left: auto; margin-right: auto; width: 440; height: 56; }
+#status div { width: 40; height: 50; margin: 2; background: no-repeat center top; float: left; text-align: center; text-transform: capitalize; font-size: 10; color: yellow; }
+#status div.light_on { background-image: url('light_on.png'); padding-top: 38; height: 12; }
+#status div.light_off { background-image: url('light_off.png'); padding-top: 38; height: 12; }
+#status div.cooler_on { background-image: url('cooler_on.png'); padding-top: 38; height: 12; }
+#status div.cooler_off { background-image: url('cooler_off.png'); padding-top: 38; height: 12; }
+#status div.valve_on { background-image: url('valve_on.png'); padding-top: 38; height: 12; }
+#status div.valve_off { background-image: url('valve_off.png'); padding-top: 38; height: 12; }
+#status div.sta_info { background-image: url('info.png'); padding-top: 10; height: 40; font-size: 12; }
+#status div.sta_ref { background-image: url('refresh.png'); padding-top: 10; height: 40; font-size: 12; }
+#video { margin-left: auto; margin-right: auto; width: 320; text-align: center; }
+#crontab { margin-left: auto; margin-right: auto; width: 320; }
+#crontab div.event { margin-left: auto; margin-right: auto; clear: both; background: url('event.png') black no-repeat left center; height: 32; color: yellow; padding-left: 32; }
+#crontab div.com { clear: both; height: 26; background-color: gray; border-width: 1; border: solid; }
+#crontab div.min { background: url('item.png') black no-repeat right center; float: left; width: 64; padding-top: 4; text-align: left; }
+#crontab div.hour { float: left; width: 32; padding-top: 4; text-align: center; }
+#crontab div.item_on { background: url('start.png') no-repeat right center; float: left; width: 96; padding-right: 32; padding-top: 2; text-align: center; text-transform: capitalize; }
+#crontab div.item_off { background: url('stop.png') no-repeat right center; float: left; width: 96; padding-right: 32; padding-top: 2; text-align: center; text-transform: capitalize; }
+#crontab div.item_delay { background: url('delay.png') no-repeat right center; float: left; width: 128; padding-top: 2; margin-top: 4; text-align: center; text-transform: capitalize; }
+#crontab div.item_new { float: left; width: 128; padding-top: 2; text-align: center; text-transform: capitalize; }
+#crontab div.item_delay div { float: right; width: 32; padding-top: 2; text-align: center; }
+#crontab div.del { float: left; width: 32; background: url('del.png') no-repeat right center; padding-top: 32; padding-left: 24; }
+#crontab div.add { float: left; width: 32; background: url('add.png') no-repeat right center; padding-top: 32; padding-left: 24; }
+#debug { margin-left: auto; margin-right: auto; display: none; width: 440; border-width: 1; border: solid; text-align: center }
